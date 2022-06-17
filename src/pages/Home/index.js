@@ -41,7 +41,7 @@ export default function Home() {
                 </View>
 
                 <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-                    <Shoes img={require('../../assets/3.webp')} cost="R$ 99,90" onClick={()=> alert('Adicionado ao carrinho')}> Nike SunShine/Shoes</Shoes>
+                    <Shoes img={require('../../assets/3.webp')} cost="R$ 99,90" onClick={()=> alert('Adicionado ao carrinho')}> Nike SunShine</Shoes>
                     <Shoes img={require('../../assets/4.webp')} cost="R$ 149,90" onClick={()=> alert('Adicionado ao carrinho')}> Nike RedVelvet</Shoes>
                 </View>
 
